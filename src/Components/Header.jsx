@@ -1,9 +1,9 @@
 import React from "react";
-
+import vazico from "../icons/vaz.png.svg";
 const Header = () => {
     return (
         <header className='header'>
-            <img src='https://cdn1.ozone.ru/s3/marketing-api/banners/gl/bj/c200/glbj2i73cjf0BQEKSkOZyD9AvCf63qQA.png' />
+            <vazico />
         </header>
     );
 
