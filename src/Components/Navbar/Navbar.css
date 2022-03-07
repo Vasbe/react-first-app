@@ -4,5 +4,6 @@
   }
 
 .navbar__item{
-    color:rgb(131, 29, 29)
+    color:rgb(131, 29, 29);
+    padding-bottom: 10px;
 }

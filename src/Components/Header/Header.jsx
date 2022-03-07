@@ -1,6 +1,6 @@
 import React from "react";
-import Vazico from "../icons/vaz.png";
-import "../Styles/Header.css";
+import Vazico from "../../icons/vaz.png";
+import "./Header.css";
 //import { ReactComponent as Vazico } from "../icons/vaz.svg";
 const Header = () => {
   return (
