@@ -1,27 +1,27 @@
-.app-wrapper{
+.app-wrapper {
   display: grid;
   width: 1200px;
   margin: 0 auto;
-  grid-template-areas: 
-  "h h"
-  "n c";
-  grid-template-rows: 60px 1fr;
+  grid-template-areas:
+    "header header"
+    "nav content";
+  grid-template-rows: auto 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-gap:10px;
+  grid-gap: 10px;
 }
-.header{
-  grid-area: h;
-  background-color: green;
+.header {
+  grid-area: header;
+  background-color: rgb(17, 195, 166);
 }
-.header img{
-  width: 20px;
-  
+.header img {
+  width: 70px;
 }
-.nav{
-  grid-area: n;
+.nav {
+  grid-area: nav;
   background-color: brown;
 }
-.content{
-  grid-area: c;
+.content {
+  grid-area: content;
   background-color: blueviolet;
+  text-align: center;
 }
