@@ -1,3 +1,7 @@
+body {
+  background-color: #edeef0;
+}
+
 .app-wrapper {
   display: grid;
   width: 1200px;
@@ -6,22 +10,14 @@
     "header header"
     "nav content";
   grid-template-rows: auto 1fr;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: 3.5fr 10fr;
   grid-gap: 10px;
 }
-.header {
-  grid-area: header;
-  background-color: rgb(17, 195, 166);
-}
-.header img {
-  width: 70px;
-}
-.nav {
-  grid-area: nav;
-  background-color: brown;
-}
-.content {
-  grid-area: content;
-  background-color: blueviolet;
-  text-align: center;
-}
+
+
+
+
+
+
+
+

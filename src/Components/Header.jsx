@@ -1,10 +1,11 @@
 import React from "react";
-import Vazico from "../icons/vaz.svg";
+import Vazico from "../icons/vaz.png";
+import "../Styles/Header.css";
 //import { ReactComponent as Vazico } from "../icons/vaz.svg";
 const Header = () => {
   return (
     <header className="header">
-      <img src={Vazico} alt="" />
+      <a href="#"><img src={Vazico} alt="logo" /></a>
     </header>
   );
 };

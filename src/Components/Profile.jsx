@@ -1,9 +1,8 @@
 import React from "react";
-
+import "../Styles/Profile.css";
 const Profile = () => {
   return (
     <div className="content">
-      <div></div>
       <div>ava + description</div>
       <div>
         My posts
