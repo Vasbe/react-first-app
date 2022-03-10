@@ -10,7 +10,8 @@ const MyPosts = () => {
                 <textarea>Напишите о чём-нибудь</textarea>
                 <button>Добавить пост</button>
             </div>
-            <Post />
+            <Post message = 'Как ты?' />
+            <Post message = 'Это мой первый пост' />
         </div>
     );
 };

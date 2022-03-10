@@ -3,7 +3,7 @@ import "./Profile.css";
 import MyPosts from "./MyPosts/MyPosts";
 const Profile = () => {
   return (
-    <div className="content">
+    <div>
       <div>Ава и описание</div>
         <MyPosts />
     </div>
