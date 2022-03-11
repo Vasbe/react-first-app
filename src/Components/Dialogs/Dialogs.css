@@ -1,0 +1,25 @@
+.dialogs {
+
+}
+
+.dialogs__items {
+    display: grid;
+    grid-template-areas: 'user message';
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs__items__users__user .active{
+    color: aquamarine;
+}
+
+.dialogs__items__users {
+    grid-area: user;
+}
+
+.dialogs__items__message {
+    grid-area: message;
+}
+
+.dialogs__items__users__user {
+
+}
