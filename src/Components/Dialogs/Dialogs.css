@@ -8,7 +8,7 @@
     grid-template-columns: 2fr 10fr;
 }
 
-.dialogs__items__users__user .active{
+.dialogs__items__user .active{
     color: aquamarine;
 }
 
@@ -16,10 +16,10 @@
     grid-area: user;
 }
 
-.dialogs__items__message {
+.messages {
     grid-area: message;
 }
 
-.dialogs__items__users__user {
+.dialogs__items__user {
 
 }

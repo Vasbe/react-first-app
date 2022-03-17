@@ -6,3 +6,9 @@
 .mypost img {
     width: 50px;
 }
+.mypost__conetent{
+    padding: 10px;
+}
+.mypost__conetent button{
+    margin-bottom: 10px;
+}

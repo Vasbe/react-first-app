@@ -1,13 +1,15 @@
 import React from "react";
 import "./Profile.css";
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
+
 const Profile = () => {
-  return (
-    <div>
-      <div>Ава и описание</div>
-        <MyPosts />
-    </div>
-  );
+    return (
+        <div>
+            <ProfileInfo/>
+            <MyPosts/>
+        </div>
+    );
 };
 
 export default Profile;
